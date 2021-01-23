@@ -88,11 +88,11 @@ $dates = $conn->query("SELECT DISTINCT CONVERT(created_at, DATE) as insert_date 
             <div class="table-container">
                 <table cellspacing=0>
                     <thead>
-                    <th>Kategori</th>
-                    <th>Deskripsi</th>
-                    <th>Jumlah</th>
-                    <th>Tanggal</th>
-                    <th>Action</th>
+                        <th>Kategori</th>
+                        <th>Deskripsi</th>
+                        <th>Jumlah</th>
+                        <th>Tanggal</th>
+                        <th>Action</th>
                     </thead>
                     <tbody>
                     <?php
@@ -240,7 +240,7 @@ $dates = $conn->query("SELECT DISTINCT CONVERT(created_at, DATE) as insert_date 
                 </div>
                 <div>
                     <label for="">Total:</label>
-                    <input type="text" name="amount" required>
+                    <input type="number" name="amount" required>
                 </div>
                 <button class="insert-button" type="submit">Insert</button>
             </form>

@@ -34,3 +34,11 @@ function pretty_print($printable){
 function formattingNumber($number){
     return number_format($number);
 }
+
+function getDataFromQueryResult($result) {
+    $data = [];
+    while($row = $result->fetch_assoc()) {
+        $data[] = $row;
+    }
+    return $data;
+}

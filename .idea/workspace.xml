@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb4c4867-395c-4e7c-a098-22d6a2551964" name="Default Changelist" comment="" />
+    <list default="true" id="fb4c4867-395c-4e7c-a098-22d6a2551964" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/income.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/spending.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,14 +17,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gj7XVB6GUhRmWyoJZegzbSrg6P" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,17 +43,23 @@
       <workItem from="1598616190892" duration="5128000" />
       <workItem from="1598859575096" duration="3445000" />
       <workItem from="1598871298072" duration="2042000" />
-      <workItem from="1599140512621" duration="447000" />
+      <workItem from="1599140512621" duration="1180000" />
+      <workItem from="1611373266185" duration="3434000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="0" y="0" width="587" height="680" key="find.popup" timestamp="1598862009277">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="0" y="0" width="587" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598862009277" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

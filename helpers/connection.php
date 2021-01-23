@@ -1,7 +1,7 @@
 <?php
-$HOSTNAME = "localhost";
-$USERNAME = "root";
-$PASSWORD = "";
+$HOSTNAME = "128.199.198.148";
+$USERNAME = "bd";
+$PASSWORD = "2704205210393635";
 $DBNAME = "money_planner";
 
 $conn = new mysqli($HOSTNAME, $USERNAME, $PASSWORD, $DBNAME);
