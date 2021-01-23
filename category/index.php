@@ -1,6 +1,6 @@
 <?php
 $title = "Category";
-require_once "../layouts/head.php";
+require_once "$_SERVER[DOCUMENT_ROOT]/helpers/require.php";
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($_POST["action"] === "delete") :
@@ -16,8 +16,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt->bind_param("s", $name);
         $stmt->execute();
     endif;
+    header('location:/category');
+    exit;
 }
-
+require_once "../layouts/head.php";
 
 $query = "SELECT * FROM category";
 $result = $conn->query($query);

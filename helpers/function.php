@@ -1,16 +1,13 @@
-<?php 
+<?php
 
 /**
- * @param Array Object
- * [\
- *      [\
- *        "column"=>"x",\
- *        "data_type"=>"y",\
- *        "extras"=>[]\
- *      ]\
- * ]
+ * @param $table_name
+ * @param $attributes
+ * @param null $foreign_keys
+ * @return string
  */
-function createTableStatement($table_name, $attributes, $foreign_keys = NULL){
+function createTableStatement($table_name, $attributes, $foreign_keys = NULL): string
+{
     $statement = "CREATE TABLE IF NOT EXISTS $table_name( ";
     foreach ($attributes as $key => $value) {
         $statement .= $value["column"] . " ";
@@ -31,11 +28,13 @@ function pretty_print($printable){
     echo "<pre>".print_r($printable)."</pre>";
 }
 
-function formattingNumber($number){
+function formattingNumber($number): string
+{
     return number_format($number);
 }
 
-function getDataFromQueryResult($result) {
+function getDataFromQueryResult($result): array
+{
     $data = [];
     while($row = $result->fetch_assoc()) {
         $data[] = $row;

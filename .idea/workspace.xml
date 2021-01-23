@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb4c4867-395c-4e7c-a098-22d6a2551964" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/income.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/spending.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/require.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/income.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/income.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/category/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/connection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/function.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/nav.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +47,23 @@
       <workItem from="1598859575096" duration="3445000" />
       <workItem from="1598871298072" duration="2042000" />
       <workItem from="1599140512621" duration="1180000" />
-      <workItem from="1611373266185" duration="3434000" />
+      <workItem from="1611373266185" duration="3976000" />
+      <workItem from="1611377604045" duration="686000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -61,5 +75,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -1,8 +1,8 @@
 <?php
 $title = "Home";
 
-require_once "$_SERVER[DOCUMENT_ROOT]/helpers/connection.php";
-require_once "$_SERVER[DOCUMENT_ROOT]/helpers/function.php";
+require_once "$_SERVER[DOCUMENT_ROOT]/helpers/require.php";
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $action = $_POST["action"];
     $type = $_POST["type"];

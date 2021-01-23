@@ -1,7 +1,7 @@
 <?php
-$HOSTNAME = "128.199.198.148";
+$HOSTNAME = getenv("REMOTE_HOST");
 $USERNAME = "bd";
-$PASSWORD = "2704205210393635";
+$PASSWORD = getenv("BD_PASSWORD");
 $DBNAME = "money_planner";
 
 $conn = new mysqli($HOSTNAME, $USERNAME, $PASSWORD, $DBNAME);
