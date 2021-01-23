@@ -1,6 +1,7 @@
 <?php
-require './vendor/autoload.php';
-$dotenv = \Dotenv\Dotenv::createImmutable("./", '.env');
+
+require_once "$_SERVER[DOCUMENT_ROOT]/vendor/autoload.php";
+$dotenv = \Dotenv\Dotenv::createImmutable("$_SERVER[DOCUMENT_ROOT]/", '.env');
 $dotenv->load();
 
 $HOSTNAME = $_ENV["REMOTE_HOST"];
