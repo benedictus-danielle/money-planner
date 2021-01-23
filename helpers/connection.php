@@ -1,4 +1,8 @@
 <?php
+require './vendor/autoload.php';
+$dotenv = \Dotenv\Dotenv::createImmutable("./", '.env');
+$dotenv->load();
+
 $HOSTNAME = getenv("REMOTE_HOST");
 $USERNAME = "bd";
 $PASSWORD = getenv("BD_PASSWORD");

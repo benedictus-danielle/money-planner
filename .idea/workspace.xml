@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb4c4867-395c-4e7c-a098-22d6a2551964" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/helpers/require.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/income.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/income.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/category/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/nav.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +27,15 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Assistant\Others\Money planner" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,7 +50,7 @@
       <workItem from="1598871298072" duration="2042000" />
       <workItem from="1599140512621" duration="1180000" />
       <workItem from="1611373266185" duration="3976000" />
-      <workItem from="1611377604045" duration="686000" />
+      <workItem from="1611377604045" duration="2780000" />
     </task>
     <servers />
   </component>
